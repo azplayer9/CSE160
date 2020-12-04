@@ -3,3 +3,5 @@ Created a basic blocky world.
 Features:
   - Camera controls to allow for exploration through the world (See the HTML page for more details)
   - Building and deleting blocks with different kinds of textures
+
+Note: In order to run this program file properly, open "webserver.bat" file to open localhost:8000, and run asg3.html through the local server.
