@@ -1,0 +1,8 @@
+Implemented basic lighting on a world using the Phong Shading Model
+
+Features:
+  - Light block that moves around the world providing lighting
+    - Light block can be manually moved using HTML sliders
+  - Slightly cleaner Blocky Animal model and animations from Lab2
+  - Camera controls to allow for exploration of the world
+  
