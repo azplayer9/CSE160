@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8" />
+        <title>CSE160 Lab 4 - Lighting</title>
+    </head>
+
+    <body onload="main()" align = "center">
+        <canvas id = "webgl" width = "700" height = "700">
+            Please use a browser that supports "canvas"
+        </canvas><br>
+        
+        <p>
+            <h3>General Settings:</h3>
+            Camera Angle: <input type = "range" id = "camAngle" min = "-240" max = "240" value = "-0"><br>
+            <br>
+            Normal Toggle: <button id = "normToggle">  On/Off </button>&emsp; 
+            Light Toggle: <button id = "lightingToggle"> On/Off </button> &emsp; 
+            Light Movement Toggle: <button id = "lightToggle"> On/Off </button><br>
+            <br>
+            Light Position (Stops Light from moving)<br>
+            Light X:  <input type = "range" id = "lightX" min = "-200" max = "200" value = "50"><br>
+            Light Y:  <input type = "range" id = "lightY" min = "-200" max = "200" value = "100"><br>
+            Light Z:  <input type = "range" id = "lightZ" min = "-200" max = "200" value = "100"><br>
+        </p>
+
+        <p>
+            <h3>Animations: </h3>
+            Face Toggle: <button id = "eyeAnimOn" > On/Off </button> &emsp;  
+            Boomerang Toggle: <button id = "boomAnimOn" > On/Off </button>
+        </p>
+
+        <p>
+            <h3>Controls:</h3>
+            D, A - move left/right <br>
+            W, S - move forwards/backwards <br>
+            SPACE, CTRL - move +/- along the y axis <br>
+            Q, E - Pan Camera Left/Right <br>
+        </p>
+
+        <script src = "lib/webgl-utils.js"></script>
+        <script src = "lib/webgl-debug.js"></script>
+        <script src = "lib/cuon-utils.js"></script>
+        <script src = "lib/cuon-matrix-cse160.js"></script>
+        <script src = "asg4.js"></script>
+        <script src = "render.js"></script>
+        <script src = "Cube.js"></script>
+        <script src = "Pyramid.js"></script>
+        <script src = "Sphere.js"></script>
+        <script src = "Camera.js"></script>
+
+    </body>
+</html>

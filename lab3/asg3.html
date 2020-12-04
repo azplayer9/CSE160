@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8" />
+        <title>CSE160 Lab 3 - Virtual World</title>
+
+        <style>
+            p {text-align: center;}
+        </style>
+    </head>
+
+    <body onload="main()">
+        <p><canvas id = "webgl" width = "600" height = "600" align = "center">
+            Please use a browser that supports "canvas"
+        </canvas><br></p>
+
+        <p>
+        <b>CONTROLS:</b><br>
+        D, A - move left/right <br>
+        W, S - move forwards/backwards <br>
+        SPACE, CTRL - move +/- along the y axis <br>
+        <br>
+        Left Click - Place block immediately in front of camera <br>
+        Middle Click/Right Click - Delete block immediately in front of camera <br>
+        <i>Note: You cannot delete the blocks pre-loaded into the level!</i>
+        </p>
+
+        <p>
+        <b>Blocks: </b><br>
+        Lava: <button id = "bt0" >Choose</button><br>
+        Rock: <button id = "bt1">Choose</button><br>
+        Wood: <button id = "bt2">Choose</button><br>
+        Colorful: <button id = "bt3">Choose</button><br>
+        </p>
+
+        <script src = "lib/webgl-utils.js"></script>
+        <script src = "lib/webgl-debug.js"></script>
+        <script src = "lib/cuon-utils.js"></script>
+        <script src = "lib/cuon-matrix-cse160.js"></script>
+        <script src = "asg3.js"></script>
+        <script src = "Cube.js"></script>
+    </body>
+</html>

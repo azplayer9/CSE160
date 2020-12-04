@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8" />
+        <title>CSE160 Lab 2 - Blocky Animal</title>
+    </head>
+
+    <body onload="main()">
+        <b>"GNAR GADA!"</b><br>
+        <canvas id = "webgl" width = "400" height = "400">
+            Please use a browser that supports "canvas"
+        </canvas><br>
+
+        <p>
+        <b>Camera Angle:</b> <input type = "range" id = "camAngle" min = "-180" max = "180" value = "30"><br>
+        </p>
+
+        <p>
+        <b>Part Sliders (Only works when animations are OFF):</b><br>
+        Boomerang Arm Angle (about x-axis): <input type = "range" id = "armAngle1" min = "-45" max = "45" value = "-10"><br>
+        Boomerang Forearm Angle (about x-axis): <input type = "range" id = "armAngle2" min = "0" max = "90" value = "20"><br>
+        </p>
+
+        <p>
+        <b>Animations: </b><br><br>
+        Face Animation: <br>
+        <button id = "eyeAnimOn" >On</button><button id = "animOff">Off</button><br>
+        Boomerang Animation: <br>
+        <button id = "boomAnimOn" >On</button><button id = "animOff2">Off</button>
+        </p>
+
+        <script src = "lib/webgl-utils.js"></script>
+        <script src = "lib/webgl-debug.js"></script>
+        <script src = "lib/cuon-utils.js"></script>
+        <script src = "lib/cuon-matrix.js"></script>
+        <script src = "asg2.js"></script>
+        <script src = "Cube.js"></script>
+        <script src = "Pyramid.js"></script>
+
+    </body>
+</html>

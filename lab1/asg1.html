@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8" />
+        <title>CSE160 Lab 1</title>
+    </head>
+
+    <body onload="main()">
+        
+        <canvas id = "webgl" width = "400" height = "400">
+            Please use a browser that supports "canvas"
+        </canvas><br>
+        
+        <button type = "button" id = "clear">Clear Canvas</button><br><br>
+        
+        <p><b>Drawing Mode:</b><br>
+        <button type = "button" id = "square">Squares</button>
+        <button type = "button" id = "triangle">Triangles</button>
+        <button type = "button" id = "circle">Circles</button><br><br>
+        </p>
+        <p><b>Shape Color:</b><br>
+        <i>Using Sliders:</i><br>
+        Red <input type = "range" id = "rcolor" min = "0" max = "100" value = "100">   
+        Green <input type = "range" id = "gcolor" min = "0" max = "100" value = "100">
+        Blue <input type = "range" id = "bcolor" min = "0" max = "100" value = "100"><br>
+        <br>
+        <i>Using Text Fields:</i><br>
+        R:<input id = "rtext" value = "100">
+        G:<input id = "gtext" value = "100">
+        B:<input id = "btext" value = "100"><br>
+        (Enter a numerical value between 0 and 100)<br>
+        <button type = "button" id = "setColor">Set Color!</button><br><br>
+        </p>
+        <p><b>Shape Transparency:</b>
+        <input type = "range" id = "alpha" min = "0" max = "100" value = "100"><br></p>
+        <p><b>Shape Size:</b> 
+        <input type = "range" id = "shapesize" min = "5" max = "50" value = "20"> <br></p>
+        <p><b>(Circles) Segment Count:</b>
+        <input type = "range" id = "numSegs" min = "3", max = "30" value = "10"> <br></p>
+        
+        <script src = "lib/webgl-utils.js"></script>
+        <script src = "lib/webgl-debug.js"></script>
+        <script src = "lib/cuon-utils.js"></script>
+        <script src = "asg1.js"></script>
+        <script src = "Point.js"></script>
+        <script src = "Triangle.js"></script>
+        <script src = "Circle.js"></script>
+
+    </body>
+</html>
