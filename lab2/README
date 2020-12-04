@@ -1,0 +1,5 @@
+Created a basic blocky animal (based on Gnar from League of Legends)
+Features:
+  - Global camera rotation 
+  - 2 Different animations (Blinking face, throwing boomerang)
+  - Ability to manually rotate some joints
