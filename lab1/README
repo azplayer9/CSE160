@@ -1,3 +1,5 @@
+Created a basic brush tool using WebGl. Features several shapes to draw with as well as a way to change color and transparency.
+
 Sources Used regarding blending and transparency
 
 https://www.khronos.org/registry/OpenGL-Refpages/es2.0/xhtml/glBlendFunc.xml
