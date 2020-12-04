@@ -1,3 +1,6 @@
+Creating a basic canvas that draws vectors does vector math.
+
+
 Additional sources referenced:
 
 https://www.w3schools.com/tags/canvas_lineto.asp - using lineTo() to draw a line
